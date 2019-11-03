@@ -30,6 +30,6 @@ This will execute the project
 
 This will install the dev dependencies as well as the project dependencies.
 
-## Non-Docker
+## Non-Docker Execution
 
 `npm run dev:start` or `yarn dev:start`
