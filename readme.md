@@ -1,11 +1,5 @@
 # Build Process
 
-## Docker-Compose
-
-`docker-compose up`
-
-This will build, install the dependencies and run the Project.
-
 ## Setting up docker (Build Environment)
 
 Execute the following command to build a new docker image from the bundled Dockerfile
@@ -26,7 +20,7 @@ This will install the dev dependencies as well as the project dependencies.
 
 ## Running the files
 
-`docker run --rm -v $(pwd):/data -it nak-fe yarn dev:start`
+`docker run --rm -v $(pwd):/data -it -p 7000:7000 todo yarn dev:start`
 
 This will execute the project
 
