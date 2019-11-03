@@ -1,0 +1,16 @@
+version: '3.0'
+
+services:
+
+  sample:
+    container_name: todo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/data'
+    ports:
+      - '7000:7000'
+    environment:
+      - NODE_ENV=development
+    command: yarn dev:start

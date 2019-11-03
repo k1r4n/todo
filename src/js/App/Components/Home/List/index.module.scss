@@ -1,0 +1,24 @@
+.list{
+  .id{
+    width: 5%;
+  }
+  .title {
+    width: 50%;
+  }
+  .bucket{
+    width: 20%;
+  }
+  .status{
+    width: 15%;
+  }
+  .actions{
+    width: 10%;
+  }
+  .actionsBody{
+    display: flex;
+    justify-content: space-between;
+    .action{
+      cursor: pointer;
+    }
+  }
+}
